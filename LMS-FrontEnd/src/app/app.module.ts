@@ -22,6 +22,7 @@ import { StudentNavbarComponent } from './student-navbar/student-navbar.componen
 import { StaffNavbarComponent } from './staff-navbar/staff-navbar.component';
 import { LmsUsersComponent } from './lms-users/lms-users.component';
 import { LmsManageUsersComponent } from './lms-manage-users/lms-manage-users.component';
+import { UnauthorizedComponent } from './unauthorized/unauthorized.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { LmsManageUsersComponent } from './lms-manage-users/lms-manage-users.com
     StudentNavbarComponent,
     StaffNavbarComponent,
     LmsUsersComponent,
-    LmsManageUsersComponent
+    LmsManageUsersComponent,
+    UnauthorizedComponent
   ],
   imports: [
     BrowserModule,

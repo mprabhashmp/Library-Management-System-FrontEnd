@@ -1,0 +1,15 @@
+body {
+    background-image: url('../../assets/img/wall.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+  }
+
+  #wallimage{
+    height: 300px;
+    width: 1200px;
+  }
+
+  #title{
+    color: rgb(162, 200, 232);
+  }

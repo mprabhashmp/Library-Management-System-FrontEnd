@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/poppins/Poppins-Black.ttf'); 
 }
 
 @font-face {
@@ -58,7 +58,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #2e0673;
+  color: #8047e4;
 }
 
 /*---------------------------------------------*/
@@ -137,14 +137,14 @@ iframe {
   font-family: Poppins-Regular;
   font-size: 13px;
   line-height: 1.5;
-  color: #7d7a7a;
+  color: #88f3ff;
 }
 
 .txt2 {
   font-family: Poppins-Regular;
   font-size: 13px;
   line-height: 1.5;
-  color: #2f254d;
+  color: #ffffff;
 }
 
 
@@ -173,8 +173,8 @@ iframe {
 
 .wrap-login100 {
   width: 960px;
-  background: rgba(136, 134, 134, 0.382);
-  border-radius: 10px;
+  background: rgba(197, 198, 193, 0.382);
+  border-radius: 15px;
   overflow: hidden;
 
   display: -webkit-box;
@@ -190,7 +190,7 @@ iframe {
 /*------------------------------------------------------------------
 [  ]*/
 .login100-pic {
-  width: 250px;
+  width: 350px;
 }
 
 .login100-pic img {
@@ -208,10 +208,10 @@ iframe {
 .login100-form-title {
   font-family: Poppins-Bold;
   font-size: 34px;
-  color: #333333;
+  color: #fdfdfd;
   line-height: 1.2;
   text-align: center;
-
+  text-shadow:3px 2px 1px #242222;
   width: 100%;
   display: block;
   padding-bottom: 15px;
@@ -329,7 +329,7 @@ iframe {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #c9b207;
+  background: #76cf9b;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
